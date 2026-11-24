@@ -632,7 +632,138 @@ footer a{color:#E9C77E}
  .hero::before{background-position:44% 60%!important}
  .hero::after{background:linear-gradient(180deg,rgba(20,17,15,.25) 0%,rgba(20,17,15,.55) 45%,rgba(20,17,15,.85) 100%)!important}
  .hero .wrap{padding:120px 0 70px!important}
-}.hero::before{background-image:url(facade-hero.jpg)!important}@media (min-width:701px){.hero::before{background-size:138% auto!important;background-position:0% 42%!important}.hero .wrap>*{max-width:44%}.hero .logo .main{font-size:clamp(64px,8.5vw,118px)}}.hero .logo{margin-bottom:6px}.hero .logo .main,.hero .logo .side{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.hero .logo .city{letter-spacing:5px}.hero .logo .city::after{content:" · Le Salon Élégance"}.hero .logo .tag{display:none}.hero-title{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:clamp(44px,6vw,84px);line-height:1.02;color:#fff;margin:6px 0 22px;letter-spacing:-.5px}.hero-title em{color:#E3B04B}@media (min-width:701px){.hero::before{background-size:160% auto!important;background-position:0% 40%!important}.hero .wrap>*{max-width:40%}.hero-title{font-size:clamp(42px,5vw,76px)}}@media (min-width:701px){.hero .wrap>.ctas,.hero .wrap>.promo-pill{max-width:none}}@media (max-width:700px){.hero::before{height:52vh!important;bottom:auto!important;background-size:cover!important;background-position:46% 58%!important}.hero::after{background:linear-gradient(180deg,rgba(29,26,24,.1) 0%,rgba(29,26,24,0) 32vh,#1d1a18 52vh,#1d1a18 100%)!important}.hero .wrap{padding:calc(52vh - 10px) 0 60px!important}.hero .open-pill,.hero br{display:none}}.brand-logo{height:48px;width:auto;display:block}@media (max-width:700px){.brand-logo{height:40px}}.footer-logo{width:150px;height:auto;display:block;margin-bottom:12px}</style>
+}.hero::before{background-image:url(facade-hero.jpg)!important}@media (min-width:701px){.hero::before{background-size:138% auto!important;background-position:0% 42%!important}.hero .wrap>*{max-width:44%}.hero .logo .main{font-size:clamp(64px,8.5vw,118px)}}.hero .logo{margin-bottom:6px}.hero .logo .main,.hero .logo .side{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.hero .logo .city{letter-spacing:5px}.hero .logo .city::after{content:" · Le Salon Élégance"}.hero .logo .tag{display:none}.hero-title{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;font-size:clamp(44px,6vw,84px);line-height:1.02;color:#fff;margin:6px 0 22px;letter-spacing:-.5px}.hero-title em{color:#E3B04B}@media (min-width:701px){.hero::before{background-size:160% auto!important;background-position:0% 40%!important}.hero .wrap>*{max-width:40%}.hero-title{font-size:clamp(42px,5vw,76px)}}@media (min-width:701px){.hero .wrap>.ctas,.hero .wrap>.promo-pill{max-width:none}}@media (max-width:700px){.hero::before{height:52vh!important;bottom:auto!important;background-size:cover!important;background-position:46% 58%!important}.hero::after{background:linear-gradient(180deg,rgba(29,26,24,.1) 0%,rgba(29,26,24,0) 32vh,#1d1a18 52vh,#1d1a18 100%)!important}.hero .wrap{padding:calc(52vh - 10px) 0 60px!important}.hero .open-pill,.hero br{display:none}}.brand-logo{height:48px;width:auto;display:block}@media (max-width:700px){.brand-logo{height:40px}}.footer-logo{width:150px;height:auto;display:block;margin-bottom:12px}/* ---- v17 phone: catchy & organised ---- */
+.m-quick,.m-chips{display:none}
+@media (max-width:700px){
+ main{display:flex;flex-direction:column}
+ main>*{order:20}
+ .hero{order:1}.m-quick{order:2}.m-chips{order:3}#offres,#offres-decembre{order:4}#services{order:5}#salon{order:6}#realisations{order:7}#videos{order:8}#hydrafacial{order:9}
+ main>section:has(.features){order:10}#avis{order:11}#visite{order:12}#nos-services-fes{order:13}#faq{order:14}.cta{order:15}
+ main>section:has(.how),.marquee{display:none!important}
+ section{padding:46px 0!important}
+ h2{font-size:31px!important;line-height:1.1}
+ .kicker{font-size:10.5px;letter-spacing:3px;margin-bottom:8px}
+ .lead{font-size:15px}
+ /* hero: full-screen cover, text on the photo */
+ .hero{min-height:calc(100svh - 64px);display:flex;align-items:flex-end}
+ .hero::before{height:auto!important;top:0!important;bottom:0!important;background-size:cover!important;background-position:46% 40%!important}
+ .hero::after{background:linear-gradient(180deg,rgba(20,17,15,.15) 0%,rgba(20,17,15,0) 30%,rgba(20,17,15,.55) 55%,rgba(20,17,15,.94) 100%)!important}
+ .hero .wrap{padding:0 0 64px!important;width:calc(100% - 32px)}
+ .hero .open-pill,.hero br,.hero p.sub,.hero .ctas{display:none!important}
+ .hero .promo-pill{margin:0 0 14px;padding:6px 12px 6px 6px;font-size:12px;gap:8px;flex-wrap:nowrap;justify-content:flex-start}
+ .hero .promo-pill b{font-size:10px;padding:4px 8px}
+ .hero .logo .city{font-size:11px}
+ .hero-title{font-size:46px!important;margin:4px 0 0!important}
+ /* quick actions card */
+ .m-quick{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:#fff;margin:-40px 14px 0;position:relative;z-index:3;border-radius:18px;padding:14px 6px 12px;box-shadow:0 14px 34px rgba(42,37,34,.16);border:1px solid rgba(168,123,37,.25)}
+ .m-quick a{display:flex;flex-direction:column;align-items:center;gap:7px;font-size:10.5px;font-weight:500;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink)}
+ .m-quick span.ic{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--ivory);border:1.5px solid #D9A23A;color:#A87B25}
+ .m-quick a:first-child span.ic{background:#2A2522;color:#E3B04B;border-color:#2A2522}
+ .m-quick svg{width:21px;height:21px}
+ /* sticky section menu */
+ .m-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;position:sticky;top:64px;z-index:40;background:rgba(251,247,240,.97);padding:12px 14px;margin-top:14px;border-bottom:1px solid var(--line)}
+ .m-chips::-webkit-scrollbar{display:none}
+ .m-chips a{flex:none;padding:8px 14px;border-radius:999px;border:1px solid rgba(168,123,37,.45);font-size:12.5px;font-weight:500;color:var(--ink);background:#fff}
+ .m-chips a:first-child{background:#2A2522;color:#fff;border-color:#2A2522}
+ /* zellige friezes between the big parts */
+ #services::before,#salon::before,#videos::before,#avis::before,#visite::before{content:"";display:block;height:20px;margin:-46px 0 40px;background:url(frise-zellige.png) repeat-x center/auto 20px}
+ /* offers: swipe cards */
+ .offer-grid{display:flex!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;border:0!important;padding:6px 16px 16px;margin:22px -16px 0;scrollbar-width:none}
+ .offer-grid::-webkit-scrollbar{display:none}
+ .offer{flex:0 0 78%;scroll-snap-align:center;border:1px solid rgba(168,123,37,.35)!important;border-radius:18px!important;background:#fff!important;padding:22px 20px!important;box-shadow:0 10px 24px rgba(42,37,34,.08)!important}
+ .offer.hl{background:linear-gradient(165deg,#fff 30%,#F4EADB)!important;border-color:#D9A23A!important}
+ .offer h3{font-size:23px}.offer p{min-height:0;font-size:13.5px}
+ .price .now{font-size:38px}
+ .countdown{margin-top:10px}
+ .countdown .u{border-radius:12px}
+ /* salon photos: swipe */
+ .mosaic-grid{display:flex!important;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:22px -16px 0;padding:0 16px 8px;scrollbar-width:none}
+ .mosaic-grid::-webkit-scrollbar{display:none}
+ .mosaic-grid figure{flex:0 0 74%;aspect-ratio:3/4!important;scroll-snap-align:center;border-radius:18px!important;grid-column:auto!important}
+ .mosaic-grid figcaption{border-radius:999px}
+ /* prices */
+ .tabs{margin-top:22px}
+ .row{padding:13px 0}
+ .row .p{font-size:19px}
+ .mk-ph img{border-radius:14px}
+ /* nails gallery */
+ .gallery figure{border-radius:18px!important}
+ /* videos */
+ .phone .frame{border-radius:18px!important}
+ /* why us: 2x2 tiles */
+ .features{grid-template-columns:1fr 1fr!important;gap:10px!important;margin-top:22px}
+ .feat,.feat:hover{background:#fff!important;border:1px solid rgba(168,123,37,.25)!important;border-radius:16px!important;padding:14px 12px!important}
+ .feat::before{font-size:17px;margin-bottom:4px}
+ .feat h3{font-size:18px}.feat p{font-size:12.5px;line-height:1.45}
+ .seo-block{margin-top:22px;padding-top:16px}.seo-block .seo-text{font-size:12px}
+ /* hydrafacial */
+ .hydra-card{border-radius:18px;padding:24px}
+ .hydra-card .now{font-size:64px}
+ /* reviews */
+ .reviews .ctas{flex-direction:column}
+ /* visit */
+ .visit .grid{gap:12px;margin-top:22px}
+ .visit figure,.map{border-radius:16px!important}
+ .map,.map iframe{min-height:210px!important}
+ .info{grid-template-columns:1fr 1fr!important;gap:14px 16px!important}
+ .info p{font-size:14px}
+ /* service pages: 2-col tiles */
+ #nos-services-fes .svc-links{grid-template-columns:1fr 1fr!important;gap:10px!important}
+ #nos-services-fes .svc-links a,#nos-services-fes .svc-links a:hover{background:#fff!important;border:1px solid rgba(168,123,37,.25)!important;border-radius:14px!important;padding:12px!important}
+ #nos-services-fes .svc-links b{font-size:17px}#nos-services-fes .svc-links span{font-size:11.5px}
+ /* faq + cta */
+ details,details[open]{padding:16px 0}
+ summary{font-size:15.5px}
+ .cta h2{font-size:34px!important}
+ /* floating bottom bar */
+ .mbar{left:14px;right:14px;bottom:14px;background:#2A2522;border-radius:999px;padding:6px;gap:6px;box-shadow:0 12px 30px rgba(0,0,0,.3)}
+ .mbar a{border-radius:999px!important;padding:12px 10px;font-size:12.5px;box-shadow:none}
+ .mbar .btn-gold{background:#E3B04B!important;color:#2A2522!important}
+ .mbar .btn-dark{background:transparent!important;color:#fff!important;border:0!important}
+ .totop{bottom:86px;border-radius:50%}
+}
+@media (max-width:700px){.mbar{transform:translateY(140%);transition:transform .35s ease}.mbar.show{transform:none}.hero .promo-pill b{white-space:nowrap}}/* ---- v18 catchy promotion ---- */
+.offers{background:radial-gradient(ellipse at 15% 0%,rgba(227,176,75,.28),transparent 55%),radial-gradient(ellipse at 100% 100%,rgba(200,85,122,.35),transparent 55%),linear-gradient(150deg,#4A1F33 0%,#2A1620 55%,#1d1a18 100%)!important;color:#fff!important;position:relative;overflow:hidden}
+.offers::after{content:"";position:absolute;left:0;right:0;top:0;height:22px;background:url(frise-zellige.png) repeat-x center/auto 22px;opacity:.95}
+.offers .kicker{color:#F5C85A!important;font-weight:600}
+.offers h2{color:#fff!important;font-size:clamp(40px,6vw,72px)!important}
+.offers h2 span{color:#F5C85A!important}
+.offer-grid{border:0!important;gap:18px!important}
+.offer,.offer:hover{background:#FBF7F0!important;color:#2A2522!important;border:0!important;border-radius:20px!important;box-shadow:0 18px 40px rgba(0,0,0,.35)!important;padding:30px 22px 22px!important;position:relative;overflow:visible!important}
+.offer.hl{background:linear-gradient(165deg,#fff 20%,#F7E7C6)!important;outline:3px solid #E3B04B!important;outline-offset:-3px}
+.offer.hl::before{content:"★ Le + demandé";position:absolute;top:-13px;left:18px;background:#C8557A;color:#fff;font:600 11px/1 Jost,sans-serif;letter-spacing:1.5px;text-transform:uppercase;padding:7px 12px;border-radius:999px;box-shadow:0 6px 14px rgba(200,85,122,.45)}
+.offer .badge{position:absolute!important;top:-18px!important;right:16px!important;width:70px;height:70px;border-radius:50%!important;display:grid!important;place-items:center;background:radial-gradient(circle at 30% 30%,#F8D57E,#D9A23A 70%)!important;color:#3a1e2a!important;border:3px solid #fff!important;font:400 26px/1 "Bebas Neue",sans-serif!important;letter-spacing:.5px!important;padding:0!important;box-shadow:0 8px 18px rgba(0,0,0,.3)!important;animation:badgePop 2.4s ease-in-out infinite;margin:0!important}
+@keyframes badgePop{0%,100%{transform:scale(1) rotate(-6deg)}50%{transform:scale(1.08) rotate(4deg)}}
+.offer h3{color:#2A2522!important;padding-right:62px}
+.offer p{color:#6E655E!important}
+.price .now{color:#9E3F5E!important;font-size:46px!important}
+.price .old{color:#a39a92!important;text-decoration-color:#C8557A!important;text-decoration-thickness:2px}
+.offer .save{display:inline-block;margin-top:8px;background:rgba(200,85,122,.12);color:#9E3F5E;font:600 12.5px/1 Jost,sans-serif;padding:7px 10px;border-radius:999px}
+.offer .offer-cta{display:block;margin-top:14px;text-align:center;background:#2A2522;color:#fff;font:500 12.5px/1 Jost,sans-serif;letter-spacing:1.8px;text-transform:uppercase;padding:14px;border-radius:999px;transition:background .2s}
+.offer .offer-cta:hover{background:#9E3F5E}
+.offer.hl .offer-cta{background:#9E3F5E}
+.countdown{background:rgba(0,0,0,.28);border:1px solid rgba(245,200,90,.45);border-radius:18px;padding:14px 18px!important;display:flex!important;justify-content:center;gap:10px!important;margin-top:30px!important;max-width:560px}
+.countdown .lbl{color:#F5C85A!important;font-weight:600!important;letter-spacing:1px}
+.countdown .u{background:#FBF7F0!important;border:0!important;border-radius:12px!important;min-width:62px}
+.countdown .u b{color:#9E3F5E!important;font-family:"Bebas Neue",sans-serif!important;font-size:34px!important}
+.countdown .u small{color:#6E655E!important}
+.offers .note{color:#f1e6dc!important;font-weight:500!important}
+/* hero ribbon */
+.hero .promo-pill{background:linear-gradient(90deg,#9E3F5E,#C8557A)!important;border:0!important;color:#fff!important;box-shadow:0 10px 24px rgba(158,63,94,.45);animation:ribbonPulse 2.2s ease-in-out infinite}
+.hero .promo-pill b{background:#F5C85A!important;color:#3a1e2a!important}
+.hero .promo-pill span{color:#fff!important}
+@keyframes ribbonPulse{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@media (prefers-reduced-motion:reduce){.offer .badge,.hero .promo-pill{animation:none}}
+@media (max-width:700px){
+ .offers{padding-top:60px!important}
+ .offer-grid{padding:26px 16px 18px!important;gap:14px!important}
+ .offer{flex:0 0 80%!important;padding:28px 18px 18px!important}
+ .countdown{margin:18px auto 0!important;display:grid!important;grid-template-columns:repeat(4,1fr);max-width:none}
+ .countdown .lbl{grid-column:1/-1;text-align:center}
+ .countdown .u{min-width:0}
+ .offers .note{text-align:center;font-size:13px}
+}
+</style>
 </head>
 <body>
 
@@ -669,6 +800,16 @@ footer a{color:#E9C77E}
   </div>
   <a class="scroll-cue" href="#offres" aria-label="Défiler vers le bas"></a>
 </section>
+<nav class="m-quick" aria-label="Accès rapide">
+  <a href="tel:+212532359491"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></span>Appeler</a>
+  <a href="https://ig.me/m/lesalonfes.elegance" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></span>Message</a>
+  <a href="https://share.google/95vQ137T0D1SVb2Rx" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>Itinéraire</a>
+  <a href="#services"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5" fill="currentColor"/></svg></span>Prix</a>
+</nav>
+<nav class="m-chips" aria-label="Sections">
+  <a href="#offres" data-alt="#offres-decembre">Offres</a><a href="#services">Prix</a><a href="#salon">Le salon</a><a href="#realisations">Ongles</a><a href="#videos">Vidéos</a><a href="#hydrafacial">HydraFacial</a><a href="#avis">Avis</a><a href="#visite">Accès</a><a href="#faq">FAQ</a>
+</nav>
+<script>(function(){function t(){var b=document.querySelector('.mbar');if(b)b.classList.toggle('show',window.scrollY>520);}window.addEventListener('scroll',t,{passive:true});document.addEventListener('DOMContentLoaded',t);})();document.addEventListener('DOMContentLoaded',function(){var a=document.querySelector('.m-chips a[data-alt]'),o=document.getElementById('offres');if(a&&o&&o.hidden)a.setAttribute('href',a.getAttribute('data-alt'));});</script>
 
 <div class="marquee" aria-hidden="true"><div>
   <span>Coiffure</span>✦<span>Balayage</span>✦<span>Ongles</span>✦<span>BIAB</span>✦<span>Épilation</span>✦<span>Soins du visage</span>✦<span>HydraFacial</span>✦<span>Maquillage</span>✦<span>Hammam</span>✦
@@ -1142,5 +1283,11 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
  else if(h.indexOf('ig.me')>-1||h.indexOf('instagram.com')>-1){gtag('event','clic_instagram',{link_url:h,page_path:location.pathname});}
  else if(h.indexOf('share.google')>-1||h.indexOf('maps')>-1){gtag('event','clic_itineraire',{link_url:h,page_path:location.pathname});}
 },true);
-</script></body>
+</script><script>document.addEventListener('DOMContentLoaded',function(){
+ document.querySelectorAll('.offer').forEach(function(o){var n=o.querySelector('.price .now'),d=o.querySelector('.price .old');
+  if(n&&d){var a=parseInt(n.textContent,10),b=parseInt(d.textContent,10);if(a&&b&&b>a){var s=document.createElement('span');s.className='save';s.textContent='Économisez '+(b-a)+' dh';o.appendChild(s);}}
+  var c=document.createElement('a');c.className='offer-cta';c.href='https://ig.me/m/lesalonfes.elegance';c.target='_blank';c.rel='noopener';c.textContent='Je réserve';o.appendChild(c);});
+ var pill=document.querySelector('.hero .promo-pill:not([hidden])');var end=new Date('2026-11-30T23:59:59+01:00');
+ if(pill&&!pill.hidden){var ms=end-new Date();if(ms>0){var days=Math.floor(ms/864e5);var lab=days>=2?'plus que '+days+' jours':(days==1?'plus que 1 jour':'dernier jour !');var t=pill.childNodes;for(var i=0;i<t.length;i++){if(t[i].nodeType===3&&t[i].textContent.trim()){t[i].textContent=' −45 % · '+lab+' ';break;}}}}
+});</script></body>
 </html>
