@@ -511,7 +511,107 @@ footer{background:#1c1c1e}
 .features{grid-template-columns:repeat(2,1fr);gap:34px 40px}
 @media (min-width:1000px){.features{grid-template-columns:repeat(4,1fr)}}
 @media (max-width:560px){.features{grid-template-columns:1fr}}#nos-services-fes .svc-links{gap:0 40px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
-#nos-services-fes .svc-links a,#nos-services-fes .svc-links a:hover{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 0;transform:none;box-shadow:none}</style>
+#nos-services-fes .svc-links a,#nos-services-fes .svc-links a:hover{background:none;border:0;border-bottom:1px solid var(--line);border-radius:0;padding:18px 0;transform:none;box-shadow:none}/* ---- v15 bright & luxurious ---- */
+:root{--ivory:#FBF7F0;--sand:#F4EADB;--gold-d:#A87B25;--gold:#D9A23A;--ink:#2A2522;--muted:#6E655E;--line:rgba(42,37,34,.12)}
+body{background:var(--ivory);color:var(--ink)}
+h2{color:var(--ink)}
+h2 span{color:var(--gold-d)}
+.kicker{color:var(--gold-d)!important}
+/* header */
+header{background:rgba(251,247,240,.96);border-bottom:1px solid var(--line);backdrop-filter:none}
+.menu{color:var(--ink)}
+.menu a:hover{color:var(--gold-d)}
+.brand b{color:var(--gold-d)}
+.brand i{color:var(--ink)}
+.btn-gold,.btn-gold:hover{background:var(--ink);color:#fff}
+.btn-gold:hover{background:#000}
+.btn-ghost{border:1px solid var(--ink);color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:#fff}
+.btn-dark{background:var(--ink);color:#fff}
+/* hero */
+.hero{background:var(--ivory);color:var(--ink);min-height:calc(100svh - 70px)}
+.hero::before{opacity:1;filter:none}
+@media (min-width:701px){.hero::before{left:46%}}
+.hero::after{background:linear-gradient(90deg,var(--ivory) 0%,var(--ivory) 44%,rgba(251,247,240,.85) 47%,rgba(251,247,240,0) 58%)!important}
+.logo .main{color:var(--gold-d)}
+.logo .side{color:var(--ink)}
+.logo .city{color:var(--gold-d)}
+.logo .tag{color:var(--muted)}
+.hero p.sub{color:var(--muted);font-weight:400}
+.open-pill{color:var(--muted)}
+.promo-pill{background:#fff;border:1px solid rgba(168,123,37,.45);color:var(--ink)}
+.promo-pill b{background:var(--gold);color:#fff}
+.promo-pill span{color:var(--gold-d)}
+@media (max-width:700px){
+ .hero{min-height:auto}
+ .hero::before{left:0;top:0;height:46vh;bottom:auto;opacity:1}
+ .hero::after{background:linear-gradient(180deg,rgba(251,247,240,0) 0%,rgba(251,247,240,0) 30vh,var(--ivory) 46vh)!important}
+ .hero .wrap{padding:calc(46vh - 40px) 0 50px}
+}
+/* offers */
+.offers{background:#fff;color:var(--ink)}
+.offers h2{color:var(--ink)}
+.offer-grid{border-color:var(--line)}
+.offer{color:var(--ink);border-color:var(--line)}
+.offer.hl{background:var(--ivory)}
+.offer:hover{background:var(--ivory)}
+.offer p{color:var(--muted)}
+.offer .price{border-top:1px solid var(--line)}
+.offer .badge{color:var(--gold-d);border-color:var(--gold)}
+.price .now{color:var(--ink)}
+.price .old{color:#9a918a}
+.countdown .lbl{color:var(--gold-d)}
+.countdown .u{border-color:var(--line);background:var(--ivory)}
+.countdown .u b{color:var(--ink)}
+.countdown .u small{color:var(--muted)}
+.offers .note{color:var(--muted)}
+/* photo mosaic */
+.mosaic{background:var(--ivory);padding-top:0}
+.mosaic-grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:260px 260px;gap:14px;margin-top:34px}
+.mosaic-grid figure{margin:0;position:relative;overflow:hidden;border-radius:2px;background:var(--sand)}
+.mosaic-grid figure:first-child{grid-row:1/3}
+.mosaic-grid img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.mosaic-grid figure:hover img{transform:scale(1.04)}
+.mosaic-grid figcaption{position:absolute;left:14px;bottom:12px;background:rgba(251,247,240,.92);color:var(--ink);padding:6px 12px;font-size:12px;letter-spacing:1.6px;text-transform:uppercase;font-weight:500}
+@media (max-width:760px){.mosaic-grid{grid-template-columns:1fr 1fr;grid-template-rows:auto}.mosaic-grid figure{aspect-ratio:4/5}.mosaic-grid figure:first-child{grid-column:1/3;grid-row:auto;aspect-ratio:4/3}}
+/* realisations / services */
+#realisations{background:#fff!important}
+#realisations a[href*="ig.me"]{background:var(--ink)!important;color:#fff!important}
+#services{background:var(--ivory)}
+.tab[aria-selected="true"]{border-bottom-color:var(--gold-d)}
+/* videos */
+.videos{background:var(--sand);color:var(--ink)}
+.videos h2{color:var(--ink)}
+.videos .lead{color:var(--muted)}
+.phone figcaption{color:var(--ink)}
+.phone figcaption small{color:var(--muted)}
+.swipe-hint{color:var(--muted)}
+/* hydrafacial */
+.hydra{background:#fff;color:var(--ink)}
+.hydra h2{color:var(--ink)}
+.hydra p[style]{color:var(--muted)!important}
+.step{border-bottom:1px solid var(--line)}
+.step b{color:var(--gold-d)}
+.hydra-card{background:var(--ivory);border:1px solid rgba(168,123,37,.35)}
+.hydra-card .now{color:var(--ink)}
+/* why, links, how */
+.feat,.feat:hover,.how div,.how div:hover{border-top-color:var(--gold-d)}
+#nos-services-fes{background:var(--ivory)}
+/* visit */
+.visit{background:#fff}
+/* reviews */
+.reviews{background:var(--sand);color:var(--ink)}
+.reviews h2{color:var(--ink)}
+.reviews .lead{color:var(--muted)}
+.reviews .stars{color:var(--gold)}
+/* cta + footer */
+.cta{background:var(--ivory);border-top:1px solid var(--line)}
+footer{background:#2A2522;color:#cfc6bd}
+footer b{color:var(--gold)}
+footer a{color:#E9C77E}
+.mbar .btn-dark{background:#fff;color:var(--ink);border:1px solid var(--ink)}
+.totop{background:var(--ink);color:#fff}
+.hero::before{background-image:url(facade.jpg)!important;background-position:44% 55%!important}@media (max-width:700px){.hero::before{background-position:42% 60%!important}}</style>
 </head>
 <body>
 
@@ -621,6 +721,21 @@ footer{background:#1c1c1e}
 .reviews .lead{color:#cfcfcf;margin:10px auto 0}
 .reviews .ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:26px}
 </style>
+
+<!-- SALON PHOTOS -->
+<section class="mosaic" id="salon">
+  <div class="wrap">
+    <p class="kicker">Le salon</p>
+    <h2>Un lieu pensé pour <span>votre bien-être</span></h2>
+    <div class="mosaic-grid">
+      <figure><img src="hammam-prive-fes.jpg" alt="Hammam privé du Salon Élégance à Fès, marbre blanc et zellige" loading="lazy"><figcaption>Hammam privé</figcaption></figure>
+      <figure><img src="studio-maquillage-fes.jpg" alt="Studio maquillage du Salon Élégance à Fès" loading="lazy"><figcaption>Studio maquillage</figcaption></figure>
+      <figure><img src="hammam-espace-detente.jpg" alt="Espace détente après le hammam, Salon Élégance Fès" loading="lazy"><figcaption>Espace détente</figcaption></figure>
+      <figure><img src="mur-fleurs-emy-studio.jpg" alt="Mur de fleurs et néon du studio, Salon Élégance Fès" loading="lazy"><figcaption>Mur de fleurs</figcaption></figure>
+      <figure><img src="facade.jpg" alt="Façade du Salon Élégance, centre-ville de Fès" loading="lazy"><figcaption>Centre-ville de Fès</figcaption></figure>
+    </div>
+  </div>
+</section>
 
 <!-- REALISATIONS -->
 <section id="realisations" style="padding:90px 20px;background:var(--cream-2)">
