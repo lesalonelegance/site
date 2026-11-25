@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://lesalonelegance.com/</loc><lastmod>2026-11-23</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
+  <url><loc>https://lesalonelegance.com/</loc><lastmod>2026-11-25</lastmod><changefreq>weekly</changefreq><priority>1.0</priority>
     <image:image><image:loc>https://lesalonelegance.com/facade.jpg</image:loc><image:title>Façade du Salon Élégance, salon de beauté à Fès</image:title></image:image></url>
-  <url><loc>https://lesalonelegance.com/hammam-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.9</priority></url>
-  <url><loc>https://lesalonelegance.com/spa-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.9</priority></url>
-  <url><loc>https://lesalonelegance.com/onglerie-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.9</priority></url>
-  <url><loc>https://lesalonelegance.com/hydrafacial-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.9</priority></url>
-  <url><loc>https://lesalonelegance.com/coiffure-femme-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.9</priority></url>
-  <url><loc>https://lesalonelegance.com/maquillage-fes/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-  <url><loc>https://lesalonelegance.com/en/hammam-fez/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
-  <url><loc>https://lesalonelegance.com/ar/</loc><lastmod>2026-11-23</lastmod><priority>0.8</priority></url>
+  <url><loc>https://lesalonelegance.com/hammam-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.9</priority></url>
+  <url><loc>https://lesalonelegance.com/spa-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.9</priority></url>
+  <url><loc>https://lesalonelegance.com/epilation-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://lesalonelegance.com/pedicure-manucure-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://lesalonelegance.com/onglerie-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.9</priority></url>
+  <url><loc>https://lesalonelegance.com/hydrafacial-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.9</priority></url>
+  <url><loc>https://lesalonelegance.com/coiffure-femme-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.9</priority></url>
+  <url><loc>https://lesalonelegance.com/maquillage-fes/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://lesalonelegance.com/en/hammam-fez/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
+  <url><loc>https://lesalonelegance.com/ar/</loc><lastmod>2026-11-25</lastmod><priority>0.8</priority></url>
 </urlset>
